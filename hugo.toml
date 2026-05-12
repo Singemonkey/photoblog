@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://photoblog-a3l.pages.dev"
 title = "My Photoblog"
 theme = "PaperMod"
 languageCode = "en-us"
