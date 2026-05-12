@@ -8,7 +8,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .post-content p {
@@ -19,9 +19,37 @@ h1, h2, h3, h4 {
 /* Fix carousel arrows to pale grey */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #aaaaaa;
+  color: #aaaaaa !important;
 }
 
 .swiper-pagination-bullet-active {
-  background: #aaaaaa;
+  background: #aaaaaa !important;
+}
+
+.carousel-container .swiper-button-next,
+.carousel-container .swiper-button-prev {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-container:hover .swiper-button-next,
+.carousel-container:hover .swiper-button-prev {
+  opacity: 1;
+}
+
+.post-entry .entry-content {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.entry-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+.entry-meta {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
 }

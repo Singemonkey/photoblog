@@ -14,11 +14,36 @@
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/test-post/</guid>
       <description>&lt;p&gt;This is the first paragraph of my post. Some introductory text before the image.&lt;/p&gt;
-&lt;p&gt;{{&amp;lt; carousel &amp;gt;}}
-fly_agaric_upscale.jpg
-DSD_0190.jpg
-fez_ray_upscale_levels.jpg
-{{&amp;lt; /carousel &amp;gt;}}&lt;/p&gt;
+
+&lt;div class=&#34;swiper carousel-container&#34;&gt;
+  &lt;div class=&#34;swiper-wrapper&#34;&gt;
+    
+    
+    
+    &lt;div class=&#34;swiper-slide&#34;&gt;
+      &lt;img src=&#34;fly_agaric_upscale.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    
+    
+    
+    
+    &lt;div class=&#34;swiper-slide&#34;&gt;
+      &lt;img src=&#34;DSD_0190.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    
+    
+    
+    
+    &lt;div class=&#34;swiper-slide&#34;&gt;
+      &lt;img src=&#34;fez_ray_upscale_levels.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    
+    
+  &lt;/div&gt;
+  &lt;div class=&#34;swiper-button-next&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;swiper-button-prev&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;swiper-pagination&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;And here is some text that follows the image. You can write as much &lt;strong&gt;Markdown&lt;/strong&gt; as you like here.&lt;/p&gt;</description>
     </item>
   </channel>
