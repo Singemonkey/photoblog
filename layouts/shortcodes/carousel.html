@@ -1,0 +1,16 @@
+{{ $images := split (.Inner | strings.TrimSpace) "\n" }}
+<div class="swiper carousel-container">
+  <div class="swiper-wrapper">
+    {{ range $images }}
+    {{ $img := strings.TrimSpace . }}
+    {{ if $img }}
+    <div class="swiper-slide">
+      <img src="{{ $img }}" alt="">
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>

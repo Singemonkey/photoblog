@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My Photoblog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My Photoblog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>http://localhost:1313/posts/test-post/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test-post/</guid>
+      <description>&lt;p&gt;This is the first paragraph of my post. Some introductory text before the image.&lt;/p&gt;
+&lt;p&gt;{{&amp;lt; carousel &amp;gt;}}
+fly_agaric_upscale.jpg
+DSD_0190.jpg
+fez_ray_upscale_levels.jpg
+{{&amp;lt; /carousel &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;And here is some text that follows the image. You can write as much &lt;strong&gt;Markdown&lt;/strong&gt; as you like here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
